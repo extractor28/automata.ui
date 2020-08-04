@@ -1,0 +1,257 @@
+[
+  {
+    "name": "animereactor",
+    "description": "random post from anime.reactor.cc",
+    "section": "nsfw",
+    "requires": "BOT_EMBED_LINKS"
+  },
+  {
+    "name": "ascii",
+    "description": "send message ASCII",
+    "section": "fun",
+    "requires": "text"
+  },
+  {
+    "name": "auto",
+    "description": "enable automatic song selection",
+    "section": "music"
+  },
+  {
+    "name": "autopost",
+    "description": "automatic posting once an hour",
+    "section": "settings",
+    "requires": "commands names, MANAGE_MESSAGES"
+  },
+  {
+    "name": "avatar",
+    "description": "show user avatar",
+    "section": "other",
+    "requires": "BOT_EMBED_LINKS"
+  },
+  {
+    "name": "back",
+    "description": "skip to the previous song",
+    "section": "music",
+    "requires": "connection"
+  },
+  {
+    "name": "boobs",
+    "description": "random boobs post",
+    "section": "nsfw",
+    "requires": "BOT_EMBED_LINKS"
+  },
+  {
+    "name": "butt",
+    "description": "random butt post",
+    "section": "nsfw",
+    "requires": "BOT_EMBED_LINKS"
+  },
+  {
+    "name": "delcmd",
+    "description": "delete messages with a prefix",
+    "section": "settings",
+    "requires": "ADMINISTRATOR, BOT_MANAGE_MESSAGES"
+  },
+  {
+    "name": "delete",
+    "description": "delete the specified number of messages",
+    "section": "other",
+    "requires": "MANAGE_MESSAGES, BOT_MANAGE_MESSAGES"
+  },
+  {
+    "name": "fact",
+    "description": "random fact",
+    "section": "fun"
+  },
+  {
+    "name": "fastplay",
+    "description": "start music immediately without choice",
+    "section": "settings"
+  },
+  {
+    "name": "fixing",
+    "description": "attach a bot to a channel",
+    "section": "settings",
+    "requires": "ADMINISTRATOR"
+  },
+  {
+    "name": "gelbooru",
+    "description": "random post from gelbooru.com",
+    "section": "nsfw",
+    "requires": "BOT_EMBED_LINKS"
+  },
+  {
+    "name": "genavatar",
+    "description": "generate avatar",
+    "section": "other",
+    "requires": "BOT_ATTACH_FILES"
+  },
+  {
+    "name": "ghost",
+    "description": "send message ASCII (font: ghost)",
+    "section": "fun",
+    "requires": "text"
+  },
+  {
+    "name": "magic",
+    "description": "add magic to your text",
+    "section": "fun",
+    "requires": "text"
+  },
+  {
+    "name": "meme",
+    "description": "random meme",
+    "section": "fun",
+    "requires": "BOT_EMBED_LINKS"
+  },
+  {
+    "name": "neko",
+    "description": "random image neko",
+    "section": "fun",
+    "requires": "BOT_EMBED_LINKS"
+  },
+  {
+    "name": "now",
+    "description": "show the song that is playing now",
+    "section": "music"
+  },
+  {
+    "name": "pause",
+    "description": "pause playback",
+    "section": "music",
+    "requires": "connection"
+  },
+  {
+    "name": "play",
+    "description": "search song on Youtube",
+    "section": "music",
+    "requires": "url or titles, voiceChannel"
+  },
+  {
+    "name": "playlist",
+    "description": "launch playlist from youtube",
+    "section": "music",
+    "requires": "url to the playlist, voiceChannel"
+  },
+  {
+    "name": "qclear",
+    "description": "clear the queue",
+    "section": "music"
+  },
+  {
+    "name": "queue",
+    "description": "show songs in line",
+    "section": "music",
+    "requires": "BOT_EMBED_LINKS"
+  },
+  {
+    "name": "reactor",
+    "description": "random ero post from joyreactor.cc",
+    "section": "nsfw",
+    "requires": "BOT_EMBED_LINKS"
+  },
+  {
+    "name": "repeat",
+    "description": "enable song repeat",
+    "section": "music"
+  },
+  {
+    "name": "repeatall",
+    "description": "enable repeat songs in the queue",
+    "section": "music"
+  },
+  {
+    "name": "resetset",
+    "description": "reset bot settings on the server",
+    "section": "settings",
+    "requires": "ADMINISTRATOR"
+  },
+  {
+    "name": "resume",
+    "description": "resume playback",
+    "section": "music",
+    "requires": "connection"
+  },
+  {
+    "name": "safe",
+    "description": "random post from safebooru.org",
+    "section": "fun",
+    "requires": "BOT_EMBED_LINKS"
+  },
+  {
+    "name": "say",
+    "description": "bot can send messages",
+    "section": "other",
+    "requires": "text"
+  },
+  {
+    "name": "set",
+    "description": "view saved server settings",
+    "section": "settings"
+  },
+  {
+    "name": "setlang",
+    "description": "set language",
+    "section": "settings",
+    "requires": "language code, available languages ru ,en, ADMINISTRATOR"
+  },
+  {
+    "name": "setprefix",
+    "description": "changes the bot prefix on server",
+    "section": "settings",
+    "requires": "prefix, ADMINISTRATOR"
+  },
+  {
+    "name": "shuffle",
+    "description": "shuffle songs in queue",
+    "section": "music"
+  },
+  {
+    "name": "skip",
+    "description": "next song in queue",
+    "section": "music",
+    "requires": "connection"
+  },
+  {
+    "name": "spin",
+    "description": "spin an avatar",
+    "section": "fun",
+    "requires": "BOT_ATTACH_FILES"
+  },
+  {
+    "name": "stats",
+    "description": "bot statistics",
+    "section": "other",
+    "requires": "BOT_EMBED_LINKS"
+  },
+  {
+    "name": "stop",
+    "description": "stop playback and clear queue",
+    "section": "music",
+    "requires": "connection"
+  },
+  {
+    "name": "trash",
+    "description": "trash meme generator",
+    "section": "fun",
+    "requires": "BOT_ATTACH_FILES"
+  },
+  {
+    "name": "trigger",
+    "description": "triggered gif generator",
+    "section": "fun",
+    "requires": "BOT_ATTACH_FILES"
+  },
+  {
+    "name": "weather",
+    "description": "find out the weather",
+    "section": "other",
+    "requires": "the name of the city, BOT_EMBED_LINKS"
+  },
+  {
+    "name": "yande",
+    "description": "random post from yande.re",
+    "section": "nsfw",
+    "requires": "BOT_EMBED_LINKS"
+  }
+]
