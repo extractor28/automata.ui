@@ -1,16 +1,16 @@
 <template>
-  <div>
-  </div>
+    <div>
+    </div>
 </template>
 
 <script>
 // import Tabs from '~/components/Tabs.vue'
 
 export default {
-  components: {
+    components: {
     // Tabs
-  }
-}
+    },
+};
 </script>
 
 <style>
