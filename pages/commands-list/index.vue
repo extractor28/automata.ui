@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import Commands from '~/components/Commands.vue';
+import Commands from '~/components/commands/Commands.vue';
 // import Tabs from '~/components/Tabs.vue'
 // import commands from '~/commands.json'
 
@@ -50,14 +50,14 @@ export default {
         };
     },
     // created() {
-    //   const sections = []
-    //   for (const command of this.commands) {
-    //     if (!sections.includes(command.section)) {
-    //      sections.push(command.section)
+    //     const sections = [];
+    //     for (const command of this.commands) {
+    //         if (!sections.includes(command.section)) {
+    //             sections.push(command.section);
+    //         }
     //     }
-    //   }
-    //   this.items = sections
-    //   console.log(sections)
+    //     this.items = sections;
+    //     console.log(sections);
     // },
 };
 </script>

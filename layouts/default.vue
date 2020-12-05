@@ -56,7 +56,7 @@
 
                 <template v-slot:extension>
                     <v-tabs align-with-title>
-                        <v-tab to="commands">Commands</v-tab>
+                        <v-tab to="commands-list">Commands</v-tab>
                         <v-tab to="/">About</v-tab>
                         <!-- <v-tab to="/">Tab 3</v-tab> -->
                     </v-tabs>

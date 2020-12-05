@@ -33,9 +33,9 @@ export default {
         activeSection: String,
     },
     async fetch() {
-        const response = await fetch('http://localhost:5000/commands');
-        this.commands = await response.json();
-        this.commands = this.commands.filter((c) => c.section === this.activeSection);
+        // const response = await fetch('http://localhost:5000/commands');
+        // this.commands = await response.json();
+        // this.commands = this.commands.filter((c) => c.section === this.activeSection);
     },
     data() {
         return {
